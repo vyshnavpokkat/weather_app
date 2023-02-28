@@ -1,0 +1,192 @@
+#MainContainer {
+  /* background-image: url('https://img.freepik.com/free-photo/spring-floral-border-background-green-with-leaf-watercolor-illustration_53876-126807.jpg?w=1060&t=st=1667973164~exp=1667973764~hmac=33cef0c90bee715de97395dd28b46db5813efb143b6d6b72dd6a1beda9fff0e0');
+  background-size: cover;
+  height: 850px; */
+  background-color: rgb(0, 0, 0);
+  min-height: 100vh;
+  height: auto;
+}
+
+.searchArea {
+  max-width: 300px;
+  width: 70%;
+  height: 50px;
+  text-align: center;
+  background-color: #75757522;
+  border: 5px solid #1c485e33;
+  color: #ffffff61;
+  outline: none;
+  text-transform: uppercase;
+  float: left;
+}
+
+.ButtonArea {
+  max-width: 70px;
+  width:30%;
+  height: 50px;
+  text-align: center;
+  background-color: #94919176;
+  color: #ffffff61;
+  border: none;
+  text-transform: uppercase;
+  margin: auto;
+  float: left;
+}
+
+#srcM {
+  /* min-width: 390px; */
+  /* max-width: 50%; */
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.srcc {
+  text-align: center
+}
+
+#cardContainer1 {
+  width: 90%;
+  height: auto;
+  overflow: hidden;
+  /* background-color: #fff; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+#cardContainer {
+  width: 95%;
+  /* background-color: transparent; */
+  height: 314px;
+  overflow-x: scroll;
+
+}
+
+#TownDiv {
+  width: 45%;
+  height: 15rem;
+  background-color: #1c485e33;
+  border: 5px solid rgba(27, 72, 95, .4);
+  margin: 2%;
+  /* min-width: 410px; */
+  float: left;
+  text-align: center;
+  color: #fff;
+
+}
+
+#WhethMainDiv {
+  width: 45%;
+  height: 15rem;
+  background-color: rgba(27, 72, 95, 0.2);
+  border: 5px solid rgba(27, 72, 95, .4);
+  margin: 2%;
+  /* min-width: 410px; */
+  float: left;
+  text-align: center;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  #cardContainer1 {
+    display: block;
+  }
+
+  #WhethMainDiv {
+    width: 96%;
+
+  }
+
+  #TownDiv {
+    width: 96%;
+
+  }
+}
+
+#TownHead {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 2rem;
+  color: rgb(136, 53, 53);
+  background-color: transparent;
+  text-transform: uppercase;
+
+}
+
+#time1 {
+  text-align: right;
+  margin-right: 1rem;
+  font-weight: bold;
+  color: #883535;
+}
+
+#time2 {
+  text-align: right;
+  margin-right: 1rem;
+  margin-top: -.5rem;
+  font-weight: bold;
+  color: rgb(136, 53, 53);
+}
+
+#whethS {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.card-body {
+  background-color: rgb(136, 53, 53, .2);
+  border: 5px solid rgba(136, 53, 53, .4);
+  min-height: 200px;
+  min-width: 300px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+#date1 {
+  color: #883535;
+  font-weight: bold;
+
+}
+
+#Icon {
+  width: 100px;
+  height: 100px;
+  margin-top: -4rem;
+}
+
+#TempHead {
+  font-size: 30px;
+  margin-top: -2rem;
+  font-weight: bold;
+  color: rgb(136, 53, 53);
+  background-color: transparent;
+
+}
+
+#cardHead {
+  text-align: right;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgba(27, 72, 95, .9);
+}
+
+#cardBB {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(136, 53, 53, .9);
+
+}
+
+#cardBB1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(136, 53, 53, .9);
+  margin-top: -1rem;
+
+}
+
+#cardContainer::-webkit-scrollbar {
+  display: none;
+}
